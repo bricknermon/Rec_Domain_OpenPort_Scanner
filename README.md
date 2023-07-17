@@ -10,6 +10,11 @@ Expected input file format (output file is created or updated once execution is 
 
 What to configure within either file:
 
+![image](https://github.com/bricknermon/domain_port_scanner/assets/94518180/3c5f2731-fd3f-4645-b8bb-94a672fe7ac5)
+
+Revise ```main('tester.csv', 'scan_results.csv')``` to your files where 
+
+```main('inputFilename.csv', 'desiredOutputFileName.csv')```
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
