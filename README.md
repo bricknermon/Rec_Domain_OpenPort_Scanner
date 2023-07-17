@@ -4,15 +4,22 @@ Simple csv input, csv output recursive open port scanner of domain and subdomain
 -------------------------------------------------------------------------------------------------------------------------------------
 
 ### Setup and configurations : 
-Expected input file format (output file is created or updated once execution is completed):
+
+**Expected input file format (output file is created or updated once execution is completed):**
 
 ![file_format](https://github.com/bricknermon/domain_port_scanner/assets/94518180/809bbfd2-76af-4fb0-b3d8-9456e16250c3)
 
-What to configure within either file:
+
+
+**What to configure within either file:**
+
+Navigate to the bottom of your desired output file. it should look like below:
 
 ![image](https://github.com/bricknermon/domain_port_scanner/assets/94518180/3c5f2731-fd3f-4645-b8bb-94a672fe7ac5)
 
-Revise ```main('tester.csv', 'scan_results.csv')``` to your files where 
+Revise the following ```main('tester.csv', 'scan_results.csv')``` 
+
+to your file names where 
 
 ```main('inputFilename.csv', 'desiredOutputFileName.csv')```
 
