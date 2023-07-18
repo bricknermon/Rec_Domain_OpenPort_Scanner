@@ -29,9 +29,9 @@ to your file names where
 
 [port_scan_2Col.py](https://github.com/bricknermon/domain_port_scanner/blob/main/port_scan_2Col.py)
 
-**Cmd to Run:** ```sudo python3 port_scan.py inputFileName.csv arbitaryName.csv```
+**Cmd to Run:** ```sudo python3 port_scan_2Col.py inputFileName.csv arbitaryName.csv```
 
-Example cmd: ```sudo python3 port_scan.py tester.csv scan_results.csv```
+Example cmd: ```sudo python3 port_scan_2Col.py tester.csv scan_results.csv```
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -39,6 +39,6 @@ Example cmd: ```sudo python3 port_scan.py tester.csv scan_results.csv```
 
 [port_scan_multCol.py](https://github.com/bricknermon/domain_port_scanner/blob/main/port_scan_multCol.py)
 
-**Cmd to Run:** ```sudo python3 port_scan.py inputFileName.csv arbitaryName.csv```
+**Cmd to Run:** ```sudo python3 port_scan_multCol.py inputFileName.csv arbitaryName.csv```
 
-Example cmd: ```sudo python3 port_scan.py tester.csv scan_results.csv```
+Example cmd: ```sudo python3 port_scan_multCol.py tester.csv scan_results.csv```
