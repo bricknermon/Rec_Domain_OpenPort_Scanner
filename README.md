@@ -6,7 +6,13 @@ Simple csv input, csv output recursive open port scanner of domain and subdomain
 ## Setup and configurations : 
 
 
-**Expected input file format (output file is created or updated once execution is completed):**
+**Required instillation**
+
+Install nmap ```pip install python-nmap``` 
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+### **Expected input file format (output file is created or updated once execution is completed):**
 
 Csv file in following format, one domain per row:
 
@@ -19,9 +25,9 @@ domain3.com
 
 ![file_format](https://github.com/bricknermon/domain_port_scanner/assets/94518180/809bbfd2-76af-4fb0-b3d8-9456e16250c3)
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
-
-**What to configure within either file:**
+### **What to configure within either file:**
 
 Navigate to the bottom of your desired output file. it should look like below:
 
@@ -35,6 +41,8 @@ to your file names where
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
+### Example Run of 2Col output
+
 ![image](https://github.com/bricknermon/domain_port_scanner/assets/94518180/6f0fd34d-5f88-4385-9aa5-30a7ca0dc6a9)
 
 [port_scan_2Col.py](https://github.com/bricknermon/domain_port_scanner/blob/main/port_scan_2Col.py)
@@ -44,6 +52,8 @@ to your file names where
 Example cmd: ```sudo python3 port_scan_2Col.py tester.csv scan_results.csv```
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+### Example Run of Multi Col Output
 
 ![image](https://github.com/bricknermon/domain_port_scanner/assets/94518180/9a4cdc31-fdbf-434b-95fb-c4fddda84a05)
 
