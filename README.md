@@ -1,5 +1,6 @@
 # domain_port_scanner
-Simple csv input, csv output recursive open port scanner of domain and subdomains. Output in digestible,concise and easy to mannipulate format for analysis : ).
+
+This project is a robust, efficient port scanner designed for scanning domains and their subdomains. It accepts a CSV file as input, containing the list of domains to be scanned, and generates an output CSV file detailing the open ports found for each domain. Our scanner's output is meticulously organized, ensuring that the results are concise, easy to interpret, and ready for further analysis. This tool is perfect for those who require a straightforward, yet in-depth understanding of their domain's open ports
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
