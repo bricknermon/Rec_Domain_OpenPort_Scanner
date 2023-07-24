@@ -3,9 +3,19 @@ Simple csv input, csv output recursive open port scanner of domain and subdomain
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-### Setup and configurations : 
+## Setup and configurations : 
+
 
 **Expected input file format (output file is created or updated once execution is completed):**
+
+Csv file in following format, one domain per row:
+
+domain1.com
+
+domain2.com
+
+domain3.com
+...
 
 ![file_format](https://github.com/bricknermon/domain_port_scanner/assets/94518180/809bbfd2-76af-4fb0-b3d8-9456e16250c3)
 
