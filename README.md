@@ -1,5 +1,5 @@
 # domain_port_scanner
-Simple csv input, csv output recursive open port scanner of domain and subdomains. Output in digestible/concise format : ).
+Simple csv input, csv output recursive open port scanner of domain and subdomains. Output in digestible,concise and easy to mannipulate format for analysis : ).
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,3 +62,10 @@ Example cmd: ```sudo python3 port_scan_2Col.py tester.csv scan_results.csv```
 **Cmd to Run:** ```sudo python3 port_scan_multCol.py inputFileName.csv arbitaryName.csv```
 
 Example cmd: ```sudo python3 port_scan_multCol.py tester.csv scan_results.csv```
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+> [!] legal disclaimer : Usage of this script for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
